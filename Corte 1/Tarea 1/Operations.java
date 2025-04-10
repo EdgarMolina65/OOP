@@ -17,7 +17,7 @@ public class Operations {
         return a * b;   
     }
     public int potencia (int base, int exponente){
-        r = a  b;
+        r = exponente == 0 ? 1: base*potencia(base,exponente-1);
         return exponente == 0 ? 1: base*potencia(base,exponente-1);
     }  
 }
